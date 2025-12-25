@@ -11,5 +11,12 @@ colored_art = random.choice(colors) + ascii_art + Style.RESET_ALL
 print(colored_art)
 
 print(Fore.WHITE + "Wishing you a joyful holiday season!")
-print(Fore.RED + "From Jonathan")
 print(Fore.GREEN + "Happy Holidays!")
+print(Fore.RED + "From Jonathan")
+
+print()
+
+try:
+  input("Press Enter to exit...")
+except EOFError:
+  pass
